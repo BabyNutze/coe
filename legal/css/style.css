@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+font-family: 'Kanit', sans-serif;
+font-family: 'Mitr', sans-serif;
+	background-color: #444444;
+}
+.p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+.indent3 {
+	text-indent: 3%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.indent5 {
+	text-indent: 5%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+#countdown {
+	background: white;
+	border-top-right-radius: 70%;
+	border-bottom-left-radius: 85%;
+	color: #ff5400;
+	min-height: 500px;/* color: red; */
+}
+/* start countdown timer */
+		
+#countdown h2 {
+	color: #ff5722;
+	font-weight: 600;
+	padding: 0 0 20px 0
+}
+ul.countdown span {
+	font-size: 18px;
+	text-align: center;
+	display: inline-block;
+}
+ul.countdown li {
+
+	border: 2px solid #ff6000;
+	border-radius: 50%;
+	color: #FFFFFF;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	display: inline-block;
+	transition: all 0.3s ease-in;
+	margin: 40px 20px 0 20px;
+}
+ul.countdown li:hover {
+	border: none;
+	color: #FFFFFF;
+	transform: scale(1.5);
+	border: 2px solid #ff6000;
+}
+ul.countdown li h3 {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}
+.bg-info {
+    background-color: #17a2b8c7!important;
+}
+.border-straight {
+border: 1px solid #17a2b8;
+}
+.border-all25 {
+	background: #FFFFFF;
+	border-top-right-radius: 25%;
+	border-top-left-radius: 25%;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}.border-all15 {
+	background: #FFFFFF;
+	border-top-right-radius: 15%;
+	border-top-left-radius: 15%;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-all10 {
+	background: #FFFFFF;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-all5 {
+	background: #FFFFFF;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-bottom-right-radius: 5%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+
+.border-all {
+	background: #FFFFFF;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-top{
+	background: #FFFFFF;
+	border-top-right-radius: 15%;
+	border-top-left-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-topright{
+	background: #FFFFFF;
+	border-top-right-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-topleft{
+	background: #FFFFFF;
+	border-top-left-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+
+.border-bottom {
+	background: #FFFFFF;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-topright-botleft {
+	background: #FFFFFF;
+	border-top-right-radius: 15%;
+	border-bottom-left-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-topleft-botright {
+	background: #FFFFFF;
+	border-top-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-3-topright {
+	background: #FFFFFF;
+	border-top-right-radius: 15%;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+.border-3-topleft {
+	background: #FFFFFF;
+	border-top-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	border-bottom-left-radius: 15%;
+	border-style: ridge;
+	border: 1px solid #17a2b8;
+}
+#v-pills-tab {
+border: 1px solid #17a2b8;
+}
+/* end countdown timer */
+#v-pills-tabContent {
+	background-color: #444444;
+}
